@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MyAccountActivity"
+
+    android:padding="10dp"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+
+
+            >
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                >
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_email_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_email"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userEmail_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_firstName_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_first_name"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userFirstName_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_lastName_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_last_name"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userLastName_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_password_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_password"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userPassword_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/password_stars"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_phoneNumber_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_phone_number"
+
+                        android:paddingRight="5dp"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userPhoneNumber_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+
+                <TableRow
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/myAccount_address_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/user_address"
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                        />
+
+                    <TextView
+                        android:id="@+id/myAccount_userAddress_textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+
+                        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                        />
+                </TableRow>
+            </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/myAccount_editAccount_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/edit_account"
+        android:onClick="editAccount"
+
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+
+        style="@style/Widget.AppCompat.Button.Colored" />
+
+</RelativeLayout>

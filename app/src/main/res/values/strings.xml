@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">PetSitterFinder</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+
+    <string name="email_address">Email address</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="phone_number">Phone number</string>
+    <string name="address">Address</string>
+    <string name="agree">Agree to Terms of Service</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="find_pet_care">Find Pet Care</string>
+    <string name="offer_pet_care">Offer Pet Care</string>
+
+    <string name="my_account">My Account</string>
+
+    <string name="edit_account">Edit Account</string>
+
+    <string name="account">Account</string>
+    <string name="user_first_name">First Name:</string>
+    <string name="user_last_name">Last Name:</string>
+    <string name="user_email">Email:</string>
+    <string name="user_password">Password:</string>
+    <string name="password_stars">********</string>
+    <string name="user_phone_number">Phone Number:</string>
+    <string name="user_address">Address:</string>
+
+    <string name="save">Save</string>
+
+    <string name="edit_your_account">Edit Your Account</string>
+
+    <string name="submit">Submit</string>
+
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="availability">Availability</string>
+    <string name="from">From</string>
+    <string name="to">To</string>
+    <string name="pets">Pets</string>
+
+    <string name="dog">Dog</string>
+    <string name="cat">Cat</string>
+    <string name="guinea_pig">Guinea Pig</string>
+    <string name="amphibians">Amphibians</string>
+    <string name="reptiles">Reptiles</string>
+    <string name="others">Others</string>
+
+    <string name="number">Number</string>
+
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+
+    <string name="set_availability">Set Availability</string>
+
+    <string name="others_toastMessage">If there is more than one, please separate animal types with a comma and a space.</string>
+
+    <string name="add_details">Add Details</string>
+
+    <string name="welcome">Welcome,</string>
+
+    <string name="insert_number">Insert number</string>
+
+    <string name="availability_period">Available between %1$s and %2$s</string>
+
+    <string name="takes_pets">Takes %1$s pets:</string>
+
+    <string name="email_subject">RE: Your PetSitterFinder Listing</string>
+
+
+    <!-- ERRORS -->
+
+    <string name="authentication_failed">Authentication failed</string>
+
+    <string name="required_field">Required field</string>
+
+    <string name="passwords_do_not_match">Passwords do not match. Please try again.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>
